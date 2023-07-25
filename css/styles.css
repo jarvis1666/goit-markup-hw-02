@@ -10,7 +10,8 @@
 }
 .base {
   font-family: "Roboto", sans-serif;
-  color: var(--color-base);
+  color: var(--color-text);
+  background-color: var(--color-white);
 }
 /*header*/
 /*.header {
@@ -23,7 +24,8 @@
   text-decoration: none;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.1666;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .studio-header {
   color: var(--color-base);
@@ -34,25 +36,30 @@
   font-family: "Raleway", sans-serif;
 }
 .navigation {
-  color: var(--color-base);
+  color: var(--color-text);
   font-weight: 500;
   line-height: 1.5;
   list-style-type: none;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 .contacts {
-  color: var(--color-base);
+  color: var(--color-text);
   line-height: 1.5;
   list-style-type: none;
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 0.02em;
 }
 
 .navigation:hover,
 .navigation:focus,
 .contacts:hover,
 .contacts:focus {
-  color: var(--color-blue);
+  color: var(--color-ocean);
+}
+.addres {
+  font-style: normal;
 }
 /*main*/
 .hero {
@@ -61,14 +68,19 @@
 .hero-name {
   color: var(--color-white);
   font-size: 56px;
-  line-height: 1.0714;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .but {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: var(--color-blue);
   color: var(--color-white);
   font-weight: 500;
   line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
 }
 .but:hover,
 .but:focus {
@@ -79,16 +91,21 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .quality-text {
   color: var(--color-text);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .work-name {
   color: var(--color-base);
   font-size: 36px;
-  line-height: 1.1111;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .team {
   background-color: var(--color-team);
@@ -100,16 +117,21 @@
 .text-footer {
   color: var(--color-team);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*portfolio-main*/
 .button-portfolio {
-  background-color: var(--color-cornflower);
+  background-color: var(--color-team);
+  font-family: "Roboto", sans-serif;
   border: 0;
-  border-radius: 4px;
+  font-size: 16px;
+  /*border-radius: 4px;*/
   color: var(--color-blue);
   cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
 }
 .button-portfolio:focus,
 .button-portfolio:hover {
@@ -118,4 +140,7 @@
 }
 .list {
   list-style-type: none;
+}
+.link {
+  text-decoration: none;
 }
