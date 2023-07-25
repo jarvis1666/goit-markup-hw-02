@@ -3,14 +3,21 @@
   --color-white: #ffffff;
   --color-blue: #4d5ae5;
   --color-text: #434455;
+  --color-team: #f4f4fd;
+  --color-ocean: #404bbf;
+  --color-cornflower: #e7e9fc;
+  /* --color-header: #e7e9fc;*/
 }
 .base {
-  font-family: "Poboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-base);
 }
 /*header*/
-
+/*.header {
+  background-color: var(--color-header);
+}*/
 .web {
+  font-family: "Raleway", sans-serif;
   color: var(--color-blue);
   text-transform: uppercase;
   text-decoration: none;
@@ -18,8 +25,13 @@
   font-size: 18px;
   line-height: 1.1666;
 }
-.studio {
+.studio-header {
   color: var(--color-base);
+  font-family: "Raleway", sans-serif;
+}
+.studio-footer {
+  color: var(--color-team);
+  font-family: "Raleway", sans-serif;
 }
 .navigation {
   color: var(--color-base);
@@ -51,12 +63,16 @@
   font-size: 56px;
   line-height: 1.0714;
 }
-.button {
+.but {
   cursor: pointer;
   background-color: var(--color-blue);
   color: var(--color-white);
   font-weight: 500;
   line-height: 1.5;
+}
+.but:hover,
+.but:focus {
+  background-color: var(--color-ocean);
 }
 .quality-name {
   color: var(--color-base);
@@ -68,4 +84,38 @@
 .quality-text {
   color: var(--color-text);
   line-height: 1.5;
+}
+.work-name {
+  color: var(--color-base);
+  font-size: 36px;
+  line-height: 1.1111;
+}
+.team {
+  background-color: var(--color-team);
+}
+.team-section {
+  background-color: var(--color-white);
+}
+/*footer*/
+.text-footer {
+  color: var(--color-team);
+  line-height: 1.5;
+}
+/*portfolio-main*/
+.button-portfolio {
+  background-color: var(--color-cornflower);
+  border: 0;
+  border-radius: 4px;
+  color: var(--color-blue);
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.button-portfolio:focus,
+.button-portfolio:hover {
+  background-color: var(--color-ocean);
+  color: var(--color-white);
+}
+.list {
+  list-style-type: none;
 }
