@@ -1,17 +1,71 @@
-.header {
-  background-color: #ffffff;
-  text-decoration: none;
-  font-family: "Roboto";
+:root {
+  --color-base: #2e2f42;
+  --color-white: #ffffff;
+  --color-blue: #4d5ae5;
+  --color-text: #434455;
 }
+.base {
+  font-family: "Poboto", sans-serif;
+  color: var(--color-base);
+}
+/*header*/
+
 .web {
-  color: #4d5ae5;
+  color: var(--color-blue);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.1666;
 }
 .studio {
-  color: #2e2f42;
+  color: var(--color-base);
 }
 .navigation {
+  color: var(--color-base);
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   list-style-type: none;
+  text-decoration: none;
+}
+.contacts {
+  color: var(--color-base);
+  line-height: 1.5;
+  list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.navigation:hover,
+.navigation:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--color-blue);
+}
+/*main*/
+.hero {
+  background-color: var(--color-base);
+}
+.hero-name {
+  color: var(--color-white);
+  font-size: 56px;
+  line-height: 1.0714;
+}
+.button {
+  cursor: pointer;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-weight: 500;
+  line-height: 1.5;
+}
+.quality-name {
+  color: var(--color-base);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.quality-text {
+  color: var(--color-text);
+  line-height: 1.5;
 }
