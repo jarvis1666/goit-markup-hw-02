@@ -36,7 +36,7 @@
   font-family: "Raleway", sans-serif;
 }
 .navigation {
-  color: var(--color-text);
+  color: var(--color-base);
   font-weight: 500;
   line-height: 1.5;
   list-style-type: none;
