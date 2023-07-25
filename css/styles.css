@@ -123,7 +123,7 @@
 .button-portfolio {
   background-color: var(--color-team);
   font-family: "Roboto", sans-serif;
-  border: 0;
+  /*border: 0;*/
   font-size: 16px;
   /*border-radius: 4px;*/
   color: var(--color-blue);
