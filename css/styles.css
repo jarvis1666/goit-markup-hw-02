@@ -123,15 +123,12 @@
 .button-portfolio {
   background-color: var(--color-team);
   font-family: "Roboto", sans-serif;
-  /*border: 0;*/
   font-size: 16px;
-  /*border-radius: 4px;*/
   color: var(--color-blue);
   cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  font-size: 16px;
 }
 .button-portfolio:focus,
 .button-portfolio:hover {
